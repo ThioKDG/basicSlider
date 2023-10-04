@@ -1,0 +1,40 @@
+h1,
+h3 {
+  text-align: center;
+}
+.slideWrapper {
+  width: 700px;
+  height: 300px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.slideWrapper .prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.prevBtn {
+  left: 0;
+}
+.nextBtn {
+  right: 0;
+}
+.slider {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 2800px;
+  height: 100%;
+}
+
+.slider li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  line-height: 300px;
+}
